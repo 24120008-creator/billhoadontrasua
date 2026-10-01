@@ -109,13 +109,13 @@ st.markdown(
 # HÌNH NỀN / LOGO
 # ============================================================
 
-logo_path = Path("logo3.png")
+logo_path = Path("logo3.jpg")
 
 if logo_path.exists():
     st.image(str(logo_path), use_container_width=True)
 else:
     st.warning(
-        "Chưa tìm thấy logo3.png. Hãy đặt file logo3.png cùng thư mục với app.py."
+        "Chưa tìm thấy logo3.jpg. Hãy đặt file logo3.jpg cùng thư mục với app.py."
     )
 
 # ============================================================
